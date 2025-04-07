@@ -85,12 +85,6 @@
         spans-displays = false; # Disable spanning displays
       };
 
-      ### Laptop Settings
-      keyboard = {
-        enableKeyMapping = true;
-        swapLeftCtrlAndFn = true; # Swap left control and fn keys
-      };
-
       trackpad = {
         Clicking = true; # Enable tapping the trackpad to click
         TrackpadThreeFingerDrag = false; # Enable/disable three-finger drag. Default is false.
