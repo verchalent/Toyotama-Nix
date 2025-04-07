@@ -19,8 +19,8 @@
       Numbers = 409203825; # added to force updates
     }; # Mac Store apps via Brew MAS - https://mynixos.com/nix-darwin/option/homebrew.masApps
     taps = [
-        "homebrew/bundle"
-        "homebrew/services"
+  #      "homebrew/bundle" #depricated
+  #      "homebrew/services" #depricated
         "fujiapple852/trippy"
         {
           name = "konradsz/igrep";
