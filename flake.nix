@@ -13,7 +13,7 @@
 
   };
   outputs = inputs@{ nixpkgs, home-manager, darwin, ... }: {
-    darwinConfigurations.Toyotama = darwin.lib.darwinSystem {
+    darwinConfigurations.toyotama = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       pkgs = import nixpkgs { 
         system = "aarch64-darwin";
