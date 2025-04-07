@@ -14,6 +14,7 @@
   '';
   system.keyboard.enableKeyMapping = true;
   system.keyboard.remapCapsLockToEscape = true;
+  ids.uids.nixbld = lib.mkForce 350; # testing
   fonts.packages = [ 
   # For package names look at cask https://github.com/NixOS/nixpkgs/blob/master/pkgs/data/fonts/nerd-fonts/manifests/fonts.json
     pkgs.nerd-fonts.jetbrains-mono
@@ -22,7 +23,7 @@
 
   system = {
   
-    stateVersion = 4;
+    stateVersion = 5;
 
     defaults = {
       ActivityMonitor = {
