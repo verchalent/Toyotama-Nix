@@ -50,6 +50,10 @@
         greedy = true;
       }
       {
+        name = "claude"; # Claude AI assistant
+        greedy = true;
+      }
+      {
         name = "disk-inventory-x"; # Disk usage analysis
         greedy = true;
       }
