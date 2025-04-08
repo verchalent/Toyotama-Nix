@@ -108,6 +108,10 @@
         greedy = true;
       }
       {
+        name = "wavebox"; # Webapp container
+        greedy = true;
+      }
+      {
         name = "whisky"; # MacOS implementation of Wine Bottles for running windows apps
         greedy = true;
       }
