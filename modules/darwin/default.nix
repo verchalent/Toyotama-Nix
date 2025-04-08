@@ -93,6 +93,11 @@
       
       menuExtraClock.Show24Hour = true; # Set Clock to 24 Hour Mode
       loginwindow.GuestEnabled = false; # Disable guest account
+
+      WindowManager ={
+        EnableStandardClickToShowDesktop = false; # Enable standard click to show desktop
+        StageManagerHideWidgets = true; # Hide widgets in stage manager
+      };
     };
   };
 }
