@@ -72,6 +72,10 @@
         greedy = true;
       }
       {
+        name = "notunes"; # Disable iTunes
+        greedy = true;
+      }
+      {
         name = "obsidian"; # 2nd Brain
         greedy = true;
       }
