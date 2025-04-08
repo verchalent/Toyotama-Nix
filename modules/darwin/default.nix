@@ -23,7 +23,7 @@
 
   system = {
   
-    stateVersion = 5;
+    stateVersion = 6; # Moving to latest
 
     defaults = {
       ActivityMonitor = {
@@ -73,6 +73,8 @@
         ShowStatusBar = true; # Show status bar at bottom of finder windows with item/disk space stats.
       };
 
+      LaunchServices.LSQuarantine = false; # Disable quarantine for all applications
+      
       NSGlobalDomain = {
         AppleShowAllExtensions = true; # Show all file extensions
         InitialKeyRepeat = 14; # speed up key repeat behavior
