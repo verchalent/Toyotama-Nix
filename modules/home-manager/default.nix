@@ -82,5 +82,6 @@
   home.file.".inputrc".source = ./dotfiles/inputrc;
   home.file.".p10k.zsh".source = ./dotfiles/p10k.zsh;
   home.file.".config/direnv/direnvrc".source = ./dotfiles/direnvrc;
-  home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/geany/retro.conf;
+  home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/retro.conf;
+  home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
 }
