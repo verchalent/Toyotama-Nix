@@ -12,12 +12,11 @@
       brewfile = true;
       };
     masApps = {
-  # Disabling as these take forever!
-  #    Keynote = 409183694; # added to force updates
-  #    iMovie = 408981434; # added to force updates
-  #    Pages = 409201541; # added to force updates
-  #    GarageBand = 682658836; # added to force updates
-  #    Numbers = 409203825; # added to force updates
+      Keynote = 409183694; # added to force updates
+      iMovie = 408981434; # added to force updates
+      Pages = 409201541; # added to force updates
+      GarageBand = 682658836; # added to force updates
+      Numbers = 409203825; # added to force updates
     }; # Mac Store apps via Brew MAS - https://mynixos.com/nix-darwin/option/homebrew.masApps
     taps = [
         "fujiapple852/trippy"
