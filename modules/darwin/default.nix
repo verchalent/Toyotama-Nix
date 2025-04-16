@@ -12,8 +12,6 @@
   nix.extraOptions = ''
     experimental-features = nix-command flakes
   '';
-  system.keyboard.enableKeyMapping = true;
-  system.keyboard.remapCapsLockToEscape = true;
 
   fonts.packages = [ 
   # For package names look at cask https://github.com/NixOS/nixpkgs/blob/master/pkgs/data/fonts/nerd-fonts/manifests/fonts.json
@@ -100,6 +98,13 @@
         EnableStandardClickToShowDesktop = false; # Enable standard click to show desktop
         StageManagerHideWidgets = true; # Hide widgets in stage manager
       };
+    };
+
+    keyboard = {
+      enableKeyMapping = true;
+      remapCapsLockToEscape = false; # Remap Caps Lock to Escape - Disabled
+      swapLeftCtrlAndFn = true; # Swap left Control and Function keys
+      
     };
   };
 }
