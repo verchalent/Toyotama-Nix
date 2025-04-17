@@ -108,6 +108,10 @@
         greedy = true;
       }
       {
+        name = "warp"; # AI Terminal
+        greedy = true;
+      }
+      {
         name = "wavebox"; # Webapp container
         greedy = true;
       }
