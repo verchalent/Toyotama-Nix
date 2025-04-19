@@ -108,10 +108,6 @@
         greedy = true;
       }
       {
-        name = "warp"; # AI Terminal
-        greedy = true;
-      }
-      {
         name = "wavebox"; # Webapp container
         greedy = true;
       }
@@ -133,6 +129,10 @@
       }
       {
         name = "wireshark"; # Network packat analysis
+        greedy = true;
+      }
+      {
+        name = "zen-browser"; # Browser for testing
         greedy = true;
       }
     ];
