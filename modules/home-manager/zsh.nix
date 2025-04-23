@@ -5,7 +5,8 @@
         autosuggestion.enable = true;
         syntaxHighlighting.enable = true;
 
-        initExtra = ''
+        # changed from initExtra to initContent based on deprication
+        initContent = ''  
         eval "$(zellij setup --generate-auto-start zsh)"
         [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
         ''; # Init Zellij and Powerlevel10k in new zsh shell
