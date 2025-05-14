@@ -151,8 +151,7 @@
     brews = [ 
       "awscli" # Breaks when done nix native
       "fzf" # Nix native is behind
-      "igrep" # grep replacement
-      "rust" # Rust
+      "igrep" # grep replacements
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zoxide" # Nix native is behind
