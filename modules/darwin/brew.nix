@@ -32,6 +32,18 @@
         greedy = true;
       }
       {
+        name = "1password-cli"; # CLI for 1password
+        greedy = true;
+      }
+      {
+        name = "adobe-creative-cloud"; # Adobe CC
+        greedy = true;
+      }
+      {
+        name = "alacritty"; # Terminal
+        greedy = true;
+      }
+      {
         name = "alacritty"; # Terminal
         greedy = true;
       }  
