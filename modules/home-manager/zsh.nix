@@ -9,7 +9,8 @@
         initContent = ''  
         eval "$(zellij setup --generate-auto-start zsh)"
         [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
-        ''; # Init Zellij and Powerlevel10k in new zsh shell
+        . "$HOME/.cargo/env"
+        ''; # Init Zellij, cargo and Powerlevel10k in new zsh shell
        plugins = [
          {
            name = "powerlevel10k";

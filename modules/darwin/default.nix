@@ -20,7 +20,7 @@
     ];
 
   system = {
-  
+    primaryUser = "justin"; # Set the primary user for the system
     stateVersion = 6; # Moving to latest
 
     defaults = {
