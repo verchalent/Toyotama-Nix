@@ -156,6 +156,7 @@
       "awscli" # Breaks when done nix native
       "fzf" # Nix native is behind
       "igrep" # grep replacements
+      "node" # NodeJS
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zoxide" # Nix native is behind
