@@ -34,7 +34,7 @@
             ll = "lsd -l";
             ls = "lsd";
             nixswitch = "darwin-rebuild switch --flake ~/src/Toyotama-Nix/.#";
-            nixup = "brewup; pushd ~/src/Toyotama-Nix; nix flake update; nixswitch; popd"; #update env based on latest config
+            nixup = "brewup; pushd ~/src/Toyotama-Nix; nix flake update; sudo nixswitch; popd"; #update env based on latest config
             nixclean = "nix-store --gc"; # Clean local nix store
             powershell = "pwsh";
             ps = "procs";    

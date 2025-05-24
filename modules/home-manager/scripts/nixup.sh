@@ -12,5 +12,5 @@ brew cleanup --prune=all
 # Update and clean up Nix
 pushd ~/src/Toyotama-Nix
 nix flake update
-darwin-rebuild switch --flake ~/src/Toyotama-Nix/.#
-pop
+sudo darwin-rebuild switch --flake /Users/justin/src/Toyotama-Nix/.#
+popd
