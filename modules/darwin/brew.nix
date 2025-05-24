@@ -64,6 +64,10 @@
         greedy = true;
       }
       {
+        name = "docker"; # Docker Desktop
+        greedy = true;
+      }
+      {
         name = "disk-inventory-x"; # Disk usage analysis
         greedy = true;
       }
