@@ -60,6 +60,10 @@
         greedy = true;
       }
       {
+        name = "brave-browser"; # Brave browser
+        greedy = true;
+      }
+      {
         name = "claude"; # Claude AI assistant
         greedy = true;
       }
