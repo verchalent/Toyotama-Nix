@@ -84,9 +84,6 @@
         greedy = true;
       }
       {
-        name = "lazydocker"; # Docker TUI
-        greedy = true;}
-      {
         name = "lulu"; #  Firewall 
         greedy = true;
       }
@@ -159,6 +156,7 @@
       "awscli" # Breaks when done nix native
       "fzf" # Nix native is behind
       "igrep" # grep replacements
+      "lazydocker" # Docker TUI
       "node" # NodeJS
       "trippy" # Move to Nix native ?
       "uv" # Python package management
