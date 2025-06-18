@@ -84,6 +84,9 @@
         greedy = true;
       }
       {
+        name = "lazydocker"; # Docker TUI
+        greedy = true;}
+      {
         name = "lulu"; #  Firewall 
         greedy = true;
       }
@@ -141,10 +144,6 @@
       }
       {
         name = "windows-app"; # RDP+ client
-        greedy = true;
-      }
-      {
-        name = "windsurf"; # AI IDE
         greedy = true;
       }
       {
