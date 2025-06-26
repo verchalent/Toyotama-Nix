@@ -36,10 +36,6 @@
         greedy = true;
       }
       {
-        name = "adobe-creative-cloud"; # Adobe CC
-        greedy = true;
-      }
-      {
         name = "alacritty"; # Terminal
         greedy = true;
       }
@@ -145,10 +141,6 @@
       }
       {
         name = "wireshark"; # Network packat analysis
-        greedy = true;
-      }
-      {
-        name = "zen-browser"; # Browser for testing
         greedy = true;
       }
     ];
