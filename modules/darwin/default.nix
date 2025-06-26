@@ -27,14 +27,7 @@
       ActivityMonitor = {
         ShowCategory = 101; # Show All Processes, Hierarchally as default
       };
-
-    networking = {
-        applicationFirewall = {
-          enable = true;
-          enableStealthMode = true;
-        };
-      };
-      
+     
       dock = {
         autohide = true; # Autohide Dock  
         launchanim = false; # Turn off Animate opening applications from the Dock
@@ -106,6 +99,13 @@
       remapCapsLockToEscape = false; # Remap Caps Lock to Escape - Disabled
     #  swapLeftCtrlAndFn = true; # Swap left Control and Function keys - 06.26.25 - removed as this maps all keyboards. Need to ensure it only applies to laptop
       
+    };
+  };
+  
+  networking = {
+    applicationFirewall = {
+      enable = true;
+      enableStealthMode = true;
     };
   };
 }
