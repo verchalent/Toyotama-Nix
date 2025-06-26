@@ -103,7 +103,7 @@
     keyboard = {
       enableKeyMapping = true;
       remapCapsLockToEscape = false; # Remap Caps Lock to Escape - Disabled
-      swapLeftCtrlAndFn = true; # Swap left Control and Function keys
+    #  swapLeftCtrlAndFn = true; # Swap left Control and Function keys - 06.26.25 - removed as this maps all keyboards. Need to ensure it only applies to laptop
       
     };
   };
