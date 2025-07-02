@@ -2,4 +2,4 @@
 
 # Update and clean up Nix
 nix flake update
-darwin-rebuild switch --flake /Users/justin/src/Toyotama-Nix/.#
+sudo darwin-rebuild switch --flake /Users/justin/src/Toyotama-Nix/.#
