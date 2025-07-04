@@ -40,10 +40,6 @@
         greedy = true;
       }
       {
-        name = "alacritty"; # Terminal
-        greedy = true;
-      }  
-      {
         name = "alt-tab"; # Enhanced Cmd + Tab behavior akin to Windows
         greedy = true;
       }  
@@ -57,10 +53,6 @@
       }
       {
         name = "brave-browser"; # Brave browser
-        greedy = true;
-      }
-      {
-        name = "claude"; # Claude AI assistant
         greedy = true;
       }
       {
