@@ -4,11 +4,6 @@
 #        enableCompletion = true;
 #        autosuggestion.enable = true;
 #        syntaxHighlighting.enable = true;
-        oh-my-zsh = {
-          enable = true;
-          plugins = [ "git" "thefuck" "zsh-syntax-highlighting" "zsh-autosuggestions" "you-should-use" "1password" "brew"];
-        };
-
         # changed from initExtra to initContent based on deprication
         initContent = ''  
         eval "$(zellij setup --generate-auto-start zsh)"
@@ -26,6 +21,11 @@
         localVariables = {
             POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD = true;
             ZSH_THEME = "powerlevel10k/powerlevel10k";
+        };
+        
+        oh-my-zsh = {
+          enable = true;
+          plugins = [ "git" "zsh-syntax-highlighting" "zsh-autosuggestions" "you-should-use" "1password" "brew"];
         };
 
         shellAliases = {
