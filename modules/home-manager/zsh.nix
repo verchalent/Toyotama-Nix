@@ -1,9 +1,13 @@
 {inputs, config, pkgs, ...}: {
     programs.zsh = {
         enable = true;
-        enableCompletion = true;
-        autosuggestion.enable = true;
-        syntaxHighlighting.enable = true;
+#        enableCompletion = true;
+#        autosuggestion.enable = true;
+#        syntaxHighlighting.enable = true;
+        oh-my-zsh = {
+          enable = true;
+          plugins = [ "git" "thefuck" "zsh-syntax-highlighting" "zsh-autosuggestions" "you-should-use" "1password" "brew"];
+        };
 
         # changed from initExtra to initContent based on deprication
         initContent = ''  
