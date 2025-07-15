@@ -84,4 +84,5 @@
   home.file.".config/direnv/direnvrc".source = ./dotfiles/direnvrc;
   home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/retro.conf;
   home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
+  home.file.".config/helix/config.toml".source = ./dotfiles/helix.toml;
 }
