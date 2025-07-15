@@ -1,15 +1,16 @@
 {inputs, config, pkgs, ...}: {
     programs.zsh = {
         enable = true;
-#        enableCompletion = true;
-#        autosuggestion.enable = true;
-#        syntaxHighlighting.enable = true;
-        # changed from initExtra to initContent based on deprication
+        enableCompletion = true;
+        autosuggestion.enable = true;
+        syntaxHighlighting.enable = true;
+
         initContent = ''  
         eval "$(zellij setup --generate-auto-start zsh)"
         [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
         . "$HOME/.cargo/env"
-        ''; # Init Zellij, cargo and Powerlevel10k in new zsh shell
+        zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
+        ''; # Init Zellij, cargo and Powerlevel10k in new zsh shell and make auto-completion case insensitive
        plugins = [
          {
            name = "powerlevel10k";
@@ -22,10 +23,10 @@
             POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD = true;
             ZSH_THEME = "powerlevel10k/powerlevel10k";
         };
-        
+
         oh-my-zsh = {
           enable = true;
-          plugins = [ "git" "zsh-syntax-highlighting" "zsh-autosuggestions" "you-should-use" "1password" "brew"];
+          plugins = ["git" "you-should-use" "op" "brew"];
         };
 
         shellAliases = {
