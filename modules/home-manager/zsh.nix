@@ -24,11 +24,6 @@
             ZSH_THEME = "powerlevel10k/powerlevel10k";
         };
 
-        oh-my-zsh = {
-          enable = true;
-          plugins = ["git" "you-should-use" "op" "brew"];
-        };
-
         shellAliases = {
             brewup = "brew update && brew upgrade && brew cleanup --prune=all";
             cat = "bat";
