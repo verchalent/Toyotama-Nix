@@ -56,6 +56,7 @@
         FXEnableExtensionChangeWarning = false; # Disable the warning when changing file extensions
         FXPreferredViewStyle = "Nlsv"; # Change the default finder view. “icnv” = Icon view, “Nlsv” = List view, “clmv” = Column View, “Flwv” = Gallery View The default is icnv.
         FXRemoveOldTrashItems = true; # Remove old trash items after 30 days
+        NewWindowTarget = "Home"; # Set the default new window target to home directory
         QuitMenuItem = true; # Enable the Quit menu item in Finder
         ShowExternalHardDrivesOnDesktop = true; # Show external hard drives on the desktop
         ShowHardDrivesOnDesktop = false; # Don't show internal hard drives on the desktop
@@ -71,8 +72,10 @@
         AppleShowAllExtensions = true; # Show all file extensions
         InitialKeyRepeat = 14; # speed up key repeat behavior
         KeyRepeat = 1;
+        "com.apple.sound.beep.feedback" = 0; # Disable system beep feedback
         "com.apple.sound.beep.volume" = 0.000; # Mute alert volume
         "com.apple.swipescrolldirection" = false; # Disable Natural Scrolling direction
+        "com.apple.mouse.tapBehavior" = 1; # Enable tap to click
         NSDocumentSaveNewDocumentsToCloud = false; # Save new documents to local disk
       };
 
