@@ -2,6 +2,7 @@
   imports = [
     ./zsh.nix
     ./tmux.nix
+    ./nu.nix
     ];
   home.stateVersion = "24.11";
   # specify my home-manager configs
@@ -85,4 +86,6 @@
   home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/retro.conf;
   home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
   home.file.".config/helix/config.toml".source = ./dotfiles/helix.toml;
+  home.file.".config/nushell/config.nu".source = ./dotfiles/nushell.nu;
+  home.file.".config/ohmyposh/ohmyposh-nu.json".source = ./dotfiles/ohmyposh-nu.json;
 }
