@@ -6,6 +6,7 @@
 # Env Configuration
 # =============================================================================
 $env.config.show_banner = false
+$env.config.buffer_editor = "hx"
 oh-my-posh init nu --config ~/.config/ohmyposh/ohmyposh-nu.json
 
 
@@ -73,6 +74,8 @@ alias docker = podman
 alias explorer = xdg-open
 alias find = fd
 alias vi = hx
+alias nu-open = open
+alias open = ^open
 
 def ll [] { ls --long | select mode user group size created modified accessed name }
 def la [] { ls --all --long | select mode user group size created modified accessed name }
