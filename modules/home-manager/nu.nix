@@ -2,7 +2,7 @@
     programs = {
         nushell = { 
           enable = true;
-          configFile.source = ./dotfiles/config.nu
+          configFile.source = ./dotfiles/config.nu;
         };
         ohmyposh = {
           enable = true;
