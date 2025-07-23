@@ -4,7 +4,7 @@
           enable = true;
           configFile.source = ./dotfiles/config.nu;
         };
-        ohmyposh = {
+        oh-my-posh = {
           enable = true;
           enableNushellIntegration = true;
 #          settings = ./dotfiles/ohmyposh.json
