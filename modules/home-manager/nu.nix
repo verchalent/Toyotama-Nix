@@ -6,8 +6,7 @@
         };
         oh-my-posh = {
           enable = true;
-          enableNushellIntegration = true;
-          settings = ./dotfiles/ohmyposh-nu.json;
+          enableNushellIntegration = true;                   
         };
     };
 }
