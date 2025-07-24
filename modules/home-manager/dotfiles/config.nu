@@ -80,7 +80,7 @@ alias powershell = pwsh
 
 def ll [] { ls --long | select mode user group size created modified accessed name }
 def la [] { ls --all --long | select mode user group size created modified accessed name }
-def brewup [] { brew update && brew upgrade && brew cleanup --prune=all}
+def brewup [] { brew update ; brew upgrade ; brew cleanup --prune=all}
 def nixup [] { brewup; pushd ~/src/Ungyo-nix; ./modules/home-manager/scripts/nixup.sh; popd }
 def nixclean [] { nix-store --gc }
 def ssh [] { TERM=xterm-256color /usr/bin/ssh }
