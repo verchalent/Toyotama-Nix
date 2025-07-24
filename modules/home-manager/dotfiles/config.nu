@@ -7,7 +7,7 @@
 # =============================================================================
 $env.config.show_banner = false
 $env.config.buffer_editor = "hx"
-#oh-my-posh init nu --config ~/.config/ohmyposh/ohmyposh-nu.json
+oh-my-posh init nu --config ~/src/Toyotama-Nix/modules/home-manager/dotfiles/ohmyposh-nu.json
 
 
 # =============================================================================
@@ -76,6 +76,11 @@ alias find = fd
 alias vi = hx
 alias nu-open = open
 alias open = ^open
+alias powershell = pwsh
 
 def ll [] { ls --long | select mode user group size created modified accessed name }
 def la [] { ls --all --long | select mode user group size created modified accessed name }
+def brewup [] { brew update && brew upgrade && brew cleanup --prune=all}
+def nixup [] { brewup; pushd ~/src/Ungyo-nix; ./modules/home-manager/scripts/nixup.sh; popd }
+def nixclean [] { nix-store --gc }
+def ssh [] { TERM=xterm-256color /usr/bin/ssh }
