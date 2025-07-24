@@ -142,6 +142,7 @@
       "igrep" # grep replacements
       "lazydocker" # Docker TUI
       "node" # NodeJS
+      "oh-my-posh" 
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zoxide" # Nix native is behind
