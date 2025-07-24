@@ -4,7 +4,7 @@
     ./tmux.nix
     ./nu.nix
     ];
-  home.stateVersion = "24.11";
+  home.stateVersion = "25.05";
   # specify my home-manager configs
   home.packages = with pkgs; [
     curl
