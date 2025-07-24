@@ -7,7 +7,7 @@
 # =============================================================================
 $env.config.show_banner = false
 $env.config.buffer_editor = "hx"
-oh-my-posh init nu --config ~/.config/ohmyposh/ohmyposh-nu.json
+#oh-my-posh init nu --config ~/.config/ohmyposh/ohmyposh-nu.json
 
 
 # =============================================================================

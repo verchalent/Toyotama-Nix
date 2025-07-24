@@ -6,7 +6,8 @@
         };
         oh-my-posh = {
           enable = true;
-#          enableNushellIntegration = true;                   
+          enableNushellIntegration = true;
+          enableZshIntegration = false;                 
         };
     };
 }
