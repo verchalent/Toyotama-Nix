@@ -44,10 +44,6 @@
         greedy = true;
       }  
       {
-        name = "amazon-workspaces"; # Client for AWS DAAS
-        greedy = true;
-      }
-      {
         name = "bartender"; # Cleanup the sys tray
         greedy = true;
       }
@@ -61,10 +57,6 @@
       }
       {
         name = "disk-inventory-x"; # Disk usage analysis
-        greedy = true;
-      }
-      {
-        name = "firefox"; # web browsing goodness
         greedy = true;
       }
       {
@@ -142,7 +134,8 @@
       "igrep" # grep replacements
       "lazydocker" # Docker TUI
       "node" # NodeJS
-      "oh-my-posh" 
+      "oh-my-posh" # Shell prompt theme engine
+      "squiid" # TUI Calculator
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zoxide" # Nix native is behind
