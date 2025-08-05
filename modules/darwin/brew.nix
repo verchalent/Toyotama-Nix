@@ -138,6 +138,7 @@
       "squiid" # TUI Calculator
       "trippy" # Move to Nix native ?
       "uv" # Python package management
+      "zellij" # Moved from nix to brew - 082025 (nix is behind)
       "zoxide" # Nix native is behind
       ]; 
   };

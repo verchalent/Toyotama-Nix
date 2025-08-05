@@ -21,7 +21,7 @@
     ripgrep
     tealdeer
     vimPlugins.tmux-nvim
-    zellij
+  #  zellij
     zsh-powerlevel10k
   ];
 
