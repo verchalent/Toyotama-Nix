@@ -3,6 +3,7 @@
     ./zsh.nix
     ./tmux.nix
     ./nu.nix
+    ./git.nix
     ];
   home.stateVersion = "25.05";
   # specify my home-manager configs
@@ -51,15 +52,6 @@
   programs.fzf = {
     enable = true;
     enableZshIntegration = true;
-  };
-
-  programs.git = { #Nix was smashing git config. Added 03.25
-    enable = true;
-    userName = "PestyLint";
-    userEmail = "me@example.com";
-    includes = [
-      { path = "~/.gitconfig.local"; }
-    ];
   };
 
   programs.pay-respects = {
