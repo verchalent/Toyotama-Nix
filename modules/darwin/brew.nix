@@ -52,7 +52,7 @@
         greedy = true;
       }
       {
-        name = "docker"; # Docker Desktop
+        name = "docker"; # Docker Daemon - Need to decide between this and Podman
         greedy = true;
       }
       {

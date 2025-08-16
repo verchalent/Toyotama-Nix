@@ -116,8 +116,6 @@ Re-run `nixswitch` after each change to validate.
 - Merge with other system repos into a single multi-system/multi-arch config
 - Move more GUI app preference domains into `appPrefs.nix` once stabilized.
 - Reassess which brews can return to pure Nix as packages catch up.
-- Add automated flake update CI (with build test) before local adoption.
-- Explore secrets management integration (1Password CLI already present for SSH signing).
 
 ## License
 
