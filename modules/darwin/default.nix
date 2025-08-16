@@ -66,7 +66,7 @@
         ShowStatusBar = true; # Show status bar at bottom of finder windows with item/disk space stats.
       };
 
-      LaunchServices.LSQuarantine = false; # Disable quarantine for all applications
+      LaunchServices.LSQuarantine = false; # Disable quarantine for all applications - Prob not a great idea to leave this... 
       
       NSGlobalDomain = {
         AppleShowAllExtensions = true; # Show all file extensions
@@ -89,7 +89,11 @@
       };
       
       menuExtraClock.Show24Hour = true; # Set Clock to 24 Hour Mode
-      loginwindow.GuestEnabled = false; # Disable guest account
+      loginwindow = {
+        DisableConsoleAccess = true; # Disables the ability for a user to access the console by typing “>console” for a username at the login window.
+        GuestEnabled = false; # Disable guest account
+        SHOWFULLNAME = false;
+      };
 
       WindowManager ={
         EnableStandardClickToShowDesktop = false; # Enable standard click to show desktop

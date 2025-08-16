@@ -72,6 +72,10 @@
         greedy = true;
       }
       {
+        name = "Netiquette"; # Objective-see socket monitor
+        greedy = true;
+      }
+      {
         name = "notunes"; # Disable iTunes
         greedy = true;
       }
@@ -104,6 +108,10 @@
         greedy = true;
       }
       {
+        name = "TaskExplorer"; #Objective-See process explorer
+        greedy = true;
+      }
+      {
         name = "visual-studio-code"; # Make code pretty
         greedy = true;
       }
@@ -133,9 +141,12 @@
       "fzf" # Nix native is behind
       "igrep" # grep replacements
       "lazydocker" # Docker TUI
+      "lazygit" # Git TUI
       "node" # NodeJS
       "oh-my-posh" # Shell prompt theme engine
-      "squiid" # TUI Calculator
+      "p0f" # Passive OS Fingerprinting
+      "sherlock" 
+      "squiid" # TUI RPN Calculator
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zellij" # Moved from nix to brew - 082025 (nix is behind)
