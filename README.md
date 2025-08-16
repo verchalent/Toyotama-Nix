@@ -43,8 +43,6 @@ The goal is to have everything in Nix, but some packages intentionally remain on
 - GUI / cask only distribution (most apps in `casks`).
 - Temporary workarounds where Nix derivations lag or introduce friction (e.g. `awscli`).
 
-
-
 ## Files & Directories (Quick Map)
 
 ```text
