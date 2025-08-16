@@ -79,7 +79,7 @@ Toyotama-Nix/
 └── LICENSE
 ```
 
-## Bootstrap
+## Install & Bootstrap
 
 This assumes cloning into `~/src/`.
 
