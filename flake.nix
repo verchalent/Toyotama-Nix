@@ -11,6 +11,9 @@
     darwin.url = "github:lnl7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
 
+    #sops-nix
+    sops-nix.url = "github:Mic92/sops-nix";
+
   };
   outputs = inputs@{ nixpkgs, home-manager, darwin, ... }: {
     darwinConfigurations.toyotama = darwin.lib.darwinSystem {
@@ -22,6 +25,7 @@
       modules = [
         ./modules/darwin
         home-manager.darwinModules.home-manager
+        sops-nix.darwinModules.sops
         {
           home-manager = {
             useGlobalPkgs = true;
