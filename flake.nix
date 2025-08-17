@@ -15,7 +15,7 @@
     sops-nix.url = "github:Mic92/sops-nix";
 
   };
-  outputs = inputs@{ nixpkgs, home-manager, darwin, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, darwin, sops-nix, ... }: {
     darwinConfigurations.toyotama = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
       pkgs = import nixpkgs { 
