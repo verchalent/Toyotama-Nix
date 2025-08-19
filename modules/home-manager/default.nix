@@ -8,6 +8,7 @@
   home.stateVersion = "25.05";
   # specify my home-manager configs
   home.packages = with pkgs; [
+    age
     curl
     fd
     helix
