@@ -64,6 +64,14 @@
         greedy = true;
       }
       {
+        name = "ghostty"; # Terminal
+        greedy = true;
+      }
+      {
+        name = "kap"; # Screen recorder
+        greedy = true;
+      }
+      {
         name = "lulu"; #  Firewall 
         greedy = true;
       }
