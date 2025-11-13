@@ -140,7 +140,7 @@
         greedy = true;
       }
       {
-        name = "wireshark"; # Network packat analysis
+        name = "wireshark-app"; # Network packat analysis
         greedy = true;
       }
     ];
