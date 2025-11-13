@@ -40,10 +40,6 @@
         greedy = true;
       }
       {
-        name = "alcove"; #Dynamic island
-        greedy = true;
-      }
-      {
         name = "alt-tab"; # Enhanced Cmd + Tab behavior akin to Windows
         greedy = true;
       }  
@@ -117,6 +113,10 @@
       }
       {
         name = "TaskExplorer"; #Objective-See process explorer
+        greedy = true;
+      }
+      {
+        name = "TheBoredTeam/boring-notch/boring-notch"; # Remove the notch area on Macbooks
         greedy = true;
       }
       {
