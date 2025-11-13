@@ -40,6 +40,10 @@
         greedy = true;
       }
       {
+        name = "alcove"; #Dynamic island
+        greedy = true;
+      }
+      {
         name = "alt-tab"; # Enhanced Cmd + Tab behavior akin to Windows
         greedy = true;
       }  
@@ -65,10 +69,6 @@
       }
       {
         name = "ghostty"; # Terminal
-        greedy = true;
-      }
-      {
-        name = "kap"; # Screen recorder
         greedy = true;
       }
       {
