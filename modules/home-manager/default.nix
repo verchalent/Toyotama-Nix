@@ -67,6 +67,7 @@
 
   # Symlinks for files not managed natively by nix
   home.file.".config/alacritty/alacritty.toml".source=./dotfiles/alacritty.toml;
+  home.file.".config/ghostty/config".source=./dotfiles/ghostty;
   home.file.".config/nvim/init.vim".source = ./dotfiles/nvim.rc;
   home.file.".config/nvim/init.lua".source=./dotfiles/nvim-plugins.lua;
   home.file.".config/powershell/Microsoft.PowerShell_profile.ps1".source=./pwsh/Microsoft.PowerShell_profile.ps1;

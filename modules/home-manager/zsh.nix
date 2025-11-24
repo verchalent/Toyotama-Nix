@@ -38,7 +38,7 @@
             nixclean = "nix-store --gc"; # Clean local nix store
             powershell = "pwsh";
             ps = "procs";    
-            ssh = "TERM=xterm-256color /usr/bin/ssh"; # fix for alacritty 
+            ssh = "TERM=xterm-256color /usr/bin/ssh"; # fix for alacritty and ghostty
             vi = "hx"; # Alias Helix to open in place of vi
         };
     };
