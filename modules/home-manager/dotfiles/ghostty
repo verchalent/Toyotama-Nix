@@ -1,5 +1,5 @@
 # This is the configuration file for Ghostty.
-font-size = 10
+font-size = 13
 background = #212121
 background-opacity = 0.95
 window-padding-x = 10,10
