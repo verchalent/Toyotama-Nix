@@ -9,6 +9,7 @@
     systemPath = [ "/opt/homebrew/bin" ];
     pathsToLink = [ "/Applications" ];
   };
+  users.users.justin.uid = 501; # Set UID for justin to 501 - added to fix error 12.04.25
   nix.extraOptions = ''
     experimental-features = nix-command flakes
   '';
