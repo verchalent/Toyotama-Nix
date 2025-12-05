@@ -56,7 +56,7 @@
         greedy = true;
       }
       {
-        name = "docker"; # Docker Daemon - Need to decide between this and Podman
+        name = "docker-desktop"; # Docker Daemon - Need to decide between this and Podman
         greedy = true;
       }
       {
@@ -92,7 +92,7 @@
         greedy = true;
       }
       {
-        name = "ollama"; # Local LLMs
+        name = "ollama-app"; # Local LLMs
         greedy = true;
       }
       {
