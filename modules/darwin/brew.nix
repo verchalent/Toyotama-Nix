@@ -92,10 +92,6 @@
         greedy = true;
       }
       {
-        name = "ollama-app"; # Local LLMs
-        greedy = true;
-      }
-      {
         name = "postman"; # API testing
         greedy = true;
       }
@@ -117,6 +113,10 @@
       }
       {
         name = "TaskExplorer"; #Objective-See process explorer
+        greedy = true;
+      }
+      {
+        name = "vcam"; # Virtual Camera
         greedy = true;
       }
       {
