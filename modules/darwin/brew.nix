@@ -120,6 +120,10 @@
         greedy = true;
       }
       {
+        name = "tailscale-app"; #  Tailscale VPN GUI
+        greedy = true;
+      }
+      {
         name = "TaskExplorer"; #Objective-See process explorer
         greedy = true;
       }
