@@ -64,11 +64,19 @@
         greedy = true;
       }
       {
+        name = "claude-code"; # Anthropic Claude AI client
+        greedy = true; 
+      }
+      {
         name = "geany"; # notepad++ replacement
         greedy = true;
       }
       {
         name = "ghostty"; # Terminal
+        greedy = true;
+      }
+      {
+        name = "keyclu"; # Keyboard shortcut hints
         greedy = true;
       }
       {
@@ -155,6 +163,7 @@
       "p0f" # Passive OS Fingerprinting
       "sherlock" 
       "squiid" # TUI RPN Calculator
+      "tailscale" # VPN
       "trippy" # Move to Nix native ?
       "uv" # Python package management
       "zellij" # Moved from nix to brew - 082025 (nix is behind)

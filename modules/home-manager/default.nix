@@ -2,7 +2,7 @@
   imports = [
     ./zsh.nix
     ./tmux.nix
-    ./nu.nix
+  #  ./nu.nix. #Broken 02-02-26
     ./git.nix
     ];
   home.stateVersion = "25.05";
