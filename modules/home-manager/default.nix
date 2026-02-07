@@ -5,7 +5,7 @@
   #  ./nu.nix. #Broken 02-02-26
     ./git.nix
     ];
-  home.stateVersion = "25.05";
+  home.stateVersion = "25.11";
   # specify my home-manager configs
   home.packages = with pkgs; [
     age
