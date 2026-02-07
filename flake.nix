@@ -1,5 +1,5 @@
 {
-  description = "My WIP MacOS flake";
+  description = "Toyotama — nix-darwin + home-manager config for macOS Apple Silicon";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
@@ -11,19 +11,20 @@
     darwin.url = "github:lnl7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
 
-    #sops-nix
+    # sops-nix — secrets management
     sops-nix.url = "github:Mic92/sops-nix";
-
+    sops-nix.inputs.nixpkgs.follows = "nixpkgs";
   };
   outputs = inputs@{ nixpkgs, home-manager, darwin, sops-nix, ... }: {
     darwinConfigurations.toyotama = darwin.lib.darwinSystem {
       system = "aarch64-darwin";
-      pkgs = import nixpkgs { 
+      pkgs = import nixpkgs {
         system = "aarch64-darwin";
         config.allowUnfree = true;
-        };
+      };
       modules = [
         ./modules/darwin
+        ./modules/secrets.nix
         home-manager.darwinModules.home-manager
         sops-nix.darwinModules.sops
         {

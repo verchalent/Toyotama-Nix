@@ -1,4 +1,4 @@
-{inputs, config, pkgs, ...}: {
+{ ... }: {
   
   homebrew = {
     enable = true;
@@ -152,7 +152,7 @@
         greedy = true;
       }
       {
-        name = "wireshark-app"; # Network packat analysis
+        name = "wireshark-app"; # Network packet analysis
         greedy = true;
       }
     ];
