@@ -17,12 +17,12 @@
     mpv
     neofetch
     neovim
-    podman
+  #  podman
     python3
     procs
     ripgrep
     tealdeer
-    vimPlugins.tmux-nvim
+  #  vimPlugins.tmux-nvim
   #  zellij
     zsh-powerlevel10k
   ];
