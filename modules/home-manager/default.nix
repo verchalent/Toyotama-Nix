@@ -9,12 +9,12 @@
   # specify my home-manager configs
   home.packages = with pkgs; [
     age
-    curl
+  #  curl
     fd
     helix
     less
     lsd
-    mpv
+  #  mpv
     neofetch
     neovim
   #  podman
