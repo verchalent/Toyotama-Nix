@@ -6,7 +6,7 @@
     ./programs.nix
     ./tmux.nix
     ./zsh.nix
-  # ./nu.nix # Broken 02-02-26
+    ./nu.nix
   ];
 
   home.stateVersion = "25.11";
