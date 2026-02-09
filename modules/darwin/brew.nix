@@ -120,6 +120,10 @@
         greedy = true;
       }
       {
+        name = "synology-drive"; #cloud drive
+        greedy = true;
+      }
+      {
         name = "tailscale-app"; #  Tailscale VPN GUI
         greedy = true;
       }
@@ -158,6 +162,7 @@
     ];
     brews = [ 
       "awscli" # Breaks when done nix native
+      "curl" # the magical curl command
       "fzf" # Nix native is behind
       "igrep" # grep replacements
       "lazydocker" # Docker TUI
