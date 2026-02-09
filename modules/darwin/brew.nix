@@ -120,6 +120,10 @@
         greedy = true;
       }
       {
+        name = "synology-drive"; #cloud drive
+        greedy = true;
+      }
+      {
         name = "tailscale-app"; #  Tailscale VPN GUI
         greedy = true;
       }
