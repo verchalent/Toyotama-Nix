@@ -17,7 +17,7 @@
       Pages = 409201541; # added to force updates
       GarageBand = 682658836; # added to force updates
       Numbers = 409203825; # added to force updates
-#      WindowsApp = 
+      WindowsApp = 1295203466 # moving win app to mas to supress updates
     }; # Mac Store apps via Brew MAS - https://mynixos.com/nix-darwin/option/homebrew.masApps
     taps = [
         "fujiapple852/trippy"
@@ -150,10 +150,6 @@
       }
       {
         name = "wifiman"; # Ubiquiti wifi tool and VPN client
-        greedy = true;
-      }
-      {
-        name = "windows-app"; # RDP+ client
         greedy = true;
       }
       {
