@@ -17,7 +17,7 @@
       Pages = 409201541; # added to force updates
       GarageBand = 682658836; # added to force updates
       Numbers = 409203825; # added to force updates
-      WindowsApp = 1295203466 # moving win app to mas to supress updates
+      WindowsApp = 1295203466; # moving win app to mas to supress updates
     }; # Mac Store apps via Brew MAS - https://mynixos.com/nix-darwin/option/homebrew.masApps
     taps = [
         "fujiapple852/trippy"
