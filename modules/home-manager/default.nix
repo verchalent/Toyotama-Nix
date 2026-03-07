@@ -14,7 +14,8 @@
     helix
     less
     lsd
-    neofetch
+  #  neofetch
+    fastfetch
     neovim
     python3
     procs
