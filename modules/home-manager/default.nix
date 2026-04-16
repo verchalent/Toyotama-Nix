@@ -78,4 +78,6 @@
   home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
   home.file.".config/helix/config.toml".source = ./dotfiles/helix.toml;
   home.file.".config/ohmyposh/ohmyposh-nu.json".source = ./dotfiles/ohmyposh-nu.json;
+  home.file.".claude/settings.json".source = ./dotfiles/claude-settings.json;
+  home.file.".claude/skills".source = ./claude/skills;
 }
