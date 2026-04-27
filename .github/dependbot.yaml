@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "nix"
+    directory: "/" # Change this if your flake.nix is in a subdirectory
+    schedule:
+      interval: "daily" # Or "weekly"
