@@ -5,7 +5,11 @@
         autosuggestion.enable = true;
         syntaxHighlighting.enable = true;
 
-        initContent = ''  
+        profileExtra = ''
+          eval "$(/opt/homebrew/bin/brew shellenv)"
+        '';
+
+        initContent = ''
         eval "$(zellij setup --generate-auto-start zsh)"
         [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
         . "$HOME/.cargo/env"
