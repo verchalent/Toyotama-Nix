@@ -6,7 +6,7 @@
     onActivation = {
       autoUpdate = false;
       upgrade = true;
-      cleanup = "uninstall";
+      cleanup = "none"; # brew bundle --cleanup now requires --force; nix-darwin doesn't pass it yet
     };
     global = {
       brewfile = true;
