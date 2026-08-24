@@ -5,7 +5,9 @@
         terminal = "screen-256color";
         historyLimit = 5000;
         clock24 = true;
-        disableJemalloc = true;
+        package = pkgs.tmux.overrideAttrs (old: {
+            configureFlags = (old.configureFlags or []) ++ ["--disable-jemalloc"];
+        });
         plugins = with pkgs;
         [
             tmuxPlugins.better-mouse-mode
