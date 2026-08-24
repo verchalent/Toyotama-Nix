@@ -47,7 +47,11 @@
       {
         name = "alt-tab"; # Enhanced Cmd + Tab behavior akin to Windows
         greedy = true;
-      }  
+      }
+      {
+        name = "amazon-workspaces"; #workspaces client
+        greedy = true;
+      }
       {
         name = "bartender"; # Cleanup the sys tray
         greedy = true;
@@ -85,8 +89,7 @@
         greedy = true;
       }
       {
-        name = "microsoft-edge"; # Edge for use with M365 items 
-        greedy = true;
+        name = "microsoft-edge"; # Edge for use with M365 items - greedy off, MS AutoUpdate self-updates and fights brew
       }
       {
         name = "Netiquette"; # Objective-see socket monitor
@@ -137,8 +140,7 @@
         greedy = true;
       }
       {
-        name = "visual-studio-code"; # Make code pretty
-        greedy = true;
+        name = "visual-studio-code"; # Make code pretty - greedy off, VSCode self-updates and fights brew
       }
       {
         name = "wavebox"; # Webapp container
