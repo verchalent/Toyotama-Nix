@@ -2,7 +2,7 @@
   
   homebrew = {
     enable = true;
-    caskArgs.no_quarantine = true;
+#    caskArgs.no_quarantine = true;
     onActivation = {
       autoUpdate = false;
       upgrade = true;
