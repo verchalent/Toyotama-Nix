@@ -5,6 +5,7 @@
         terminal = "screen-256color";
         historyLimit = 5000;
         clock24 = true;
+        disableJemalloc = true;
         plugins = with pkgs;
         [
             tmuxPlugins.better-mouse-mode
