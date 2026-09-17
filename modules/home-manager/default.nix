@@ -25,7 +25,7 @@
 
   home.sessionVariables = {
     PAGER = "less";
-    CLICLOLOR = 1;
+    CLICOLOR = 1;
     EDITOR = "nvim";
   };
   
@@ -78,7 +78,6 @@
   home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/retro.conf;
   home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
   home.file.".config/helix/config.toml".source = ./dotfiles/helix.toml;
-  home.file.".config/ohmyposh/ohmyposh-nu.json".source = ./dotfiles/ohmyposh-nu.json;
   home.file.".claude/settings.json".source = ./dotfiles/claude-settings.json;
   home.file.".claude/statusline.sh".source = ./claude/statusline.sh;
   home.file.".claude/skills".source = ./claude/skills;

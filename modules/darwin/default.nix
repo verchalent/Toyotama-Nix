@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   # Setting Reference https://nix-darwin.github.io/nix-darwin/manual/index.html
   users.users.justin.home = "/Users/justin";
-  imports = [./brew.nix];
+  imports = [ ./brew.nix ];
   programs.zsh.enable = true;
   environment = {
     shells = with pkgs; [ bash zsh ];

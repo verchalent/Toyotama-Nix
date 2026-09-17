@@ -1,4 +1,4 @@
-{inputs, config, pkgs, ...}: {
+{ pkgs, ... }: {
     programs.zsh = {
         enable = true;
         enableCompletion = true;
@@ -13,7 +13,7 @@
 
         initContent = ''
         eval "$(zellij setup --generate-auto-start zsh)"
-        . "$HOME/.cargo/env"
+        [[ -f "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
         zstyle ':completion:*' matcher-list "" 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
 

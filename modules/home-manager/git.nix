@@ -1,4 +1,4 @@
-{inputs, config, pkgs, ...}: {
+{ ... }: {
   programs.git = { #Nix was smashing git config. Added 03.25
     enable = true;
     settings = {
