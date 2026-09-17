@@ -21,7 +21,6 @@
     procs
     ripgrep
     tealdeer
-    zsh-powerlevel10k
   ];
 
   home.sessionVariables = {
@@ -73,8 +72,9 @@
   home.file.".config/powershell/modules.txt".source=./pwsh/modules.txt;
   home.file.".config/zellij/config.kdl".source=./dotfiles/zellij.kdl;
   home.file.".inputrc".source = ./dotfiles/inputrc;
-  home.file.".p10k.zsh".source = ./dotfiles/p10k.zsh;
   home.file.".config/direnv/direnvrc".source = ./dotfiles/direnvrc;
+  home.file.".config/starship.toml".source = ./dotfiles/starship.toml; # zsh-prompt-evolution: replaces p10k
+  home.file.".config/zsh/.zsh_plugins.txt".source = ./dotfiles/zsh_plugins.txt; # zsh-prompt-evolution: antidote bundle
   home.file.".config/geany/colorschemes/retro.config".source = ./dotfiles/retro.conf;
   home.file.".config/geany/geany.conf".source = ./dotfiles/geany.conf;
   home.file.".config/helix/config.toml".source = ./dotfiles/helix.toml;
